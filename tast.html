@@ -1,0 +1,97 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./tast.css">
+</head>
+<body>
+    <header>
+        <img src="/photos/download.png" alt="restaurant logo">
+    <h1> sri Fast Foods</h1>
+    </header>     
+     <div class="content">
+        <div class="order-form">
+           <h2>place your order</h2>
+           
+           <form>
+              <label for="name">name</label>
+              <input type="text" id="name" placeholder="enter your name" ><br>
+              <label for="phone">phone number</label>
+              <input type="tel" id="phone" placeholder="enter your phone number"><br>
+              <label for="food ">food menu</label>
+               <select id="food">
+                <option>fried rice</option>
+                <option>noodles</option>
+            <option>pizza</option>
+                 <option>burge</option>
+                <option>pasta</option>
+
+
+              </select><br>
+              <label for="gty">quantity</label>
+              <select  id="qty">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+
+
+              </select><br>
+              <label for="instrutions">delivery instrutions</label>
+    <textarea  id="instrutions" rows="3"></textarea>
+    <button id="sub">submit order</button>
+<h2 id="order"></h2>
+           </form>
+
+        </div>
+     </div>
+     <div class="order-table">
+        <h2>past orders</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>food item</th>
+                    <th>quantity</th>
+                    <th>delivery notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>pavi</td>
+                    <td>fried rice</td>
+                    <td>2</td>
+                    <td>less spicy</td>
+                </tr>
+            
+            
+                <tr>
+                    <td>pavithra</td>
+                    <td>pizza</td>
+                    <td>1</td>
+                    <td>extra sause</td>
+                    
+                </tr>
+                
+                <tr>
+                    <td>sri</td>
+                    <td>pasta</td>
+                    <td>3</td>
+                    <td>spicy</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+     </div>
+
+
+
+
+
+
+<script src="./tast.js"></script>
+
+</body>
+</html>
